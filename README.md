@@ -2,7 +2,7 @@
 
 This project is divided into four parts:
 
-1. **File Handling and Error Code Frequency (Java)**
+1. **File Handling and Error Code Frequency (Java, Python)**
 2. **SQL Processing**
 3. **Electronics**
 4. **Full Stack Project**
@@ -61,7 +61,7 @@ The responses are documented in the **answers.txt** file.
 
 In this section, we developed a **Grocery Management System** for a local store owner. The system is divided into two main parts:
 
-### Server-Side (Java - Grocery Project)
+### Server-Side (Java - Grocery)
 - Developed using **Java** to handle the server-side functionality.
 - The server allows the store owner to:
   - Place orders for goods from suppliers.
@@ -76,6 +76,14 @@ In this section, we developed a **Grocery Management System** for a local store 
   - View the orders placed by the store owner.
   - Approve or update the status of orders.
   - Enter details such as company name, contact number, representative name, and list of products offered.
+
+  The implementation in **React** uses the following libraries:
+
+  ```bash  
+  npm i
+  npm run dev
+  ```
+  
 
 ### Database (SQL - DBGrocery2)
 - The database used is **DBGrocery2**, created with **SQL**.
