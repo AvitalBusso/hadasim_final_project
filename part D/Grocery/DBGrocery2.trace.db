@@ -1,0 +1,23 @@
+2025-04-06 12:11:04.855903+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRODUCT"; expected "PREPARE"; SQL statement:
+PRODUCT [42001-232]
+2025-04-06 17:41:48.943984+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PTODUCTֹORDER" not found; SQL statement:
+DROP TABLE PTODUCTֹORDER [42102-232]
+2025-04-06 17:41:54.842253+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PTODUCTֹ_ORDER" not found; SQL statement:
+DROP TABLE PTODUCTֹ_ORDER [42102-232]
+2025-04-07 21:35:19.607035+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SUPPLIERS" not found; SQL statement:
+INSERT INTO Suppliers (ID, COMPANY_NAME, PASSWORD, PHONE, REPRESENTATIVE)
+VALUES
+(1, 'Tech Solutions', 'Password1234', '050-1234567', 'John Doe'),
+(2, 'Global Supplies', 'SecurePass4567', '052-2345678', 'Jane Smith'),
+(3, 'Green Energy Corp', 'GreenPass7890', '053-3456789', 'Michael Brown'),
+(4, 'Home Goods Ltd.', 'HomeGoods0123', '054-4567890', 'Emily Davis'),
+(5, 'Quick Delivery', 'FastDelivery3456', '055-5678901', 'David Wilson'),
+(6, 'HealthTech Innovations', 'HealthPass6789', '056-6789012', 'Linda Taylor'),
+(7, 'Smart Solutions', 'SmartPass9012', '058-7890123', 'Chris Anderson'),
+(8, 'Secure Systems', 'SecurePass2345', '059-8901234', 'Sarah Thomas'),
+(9, 'Reliable Suppliers', 'Reliable5678', '050-9012345', 'James Jackson'),
+(10, 'Future Enterprises', 'FuturePass8901', '052-0123456', 'Rachel Miller') [42102-232]
